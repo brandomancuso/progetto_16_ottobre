@@ -13,7 +13,7 @@
 	<!-- DispatcherServlet Context: defines this servlet's request-processing 
 		infrastructure -->
 	<!-- Enables the Spring MVC @Controller programming model -->
-	<context:component-scan base-package="it.beije.oort" />
+	<context:component-scan base-package="it.project" />
 
 	<!-- Resolves views selected for rendering by @Controllers to .jsp resources 
 		in the /WEB-INF/views directory -->
