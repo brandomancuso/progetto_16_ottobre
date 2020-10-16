@@ -15,7 +15,7 @@
 			<label>Email: <input  name="email" type="email" placeholder="user@domain.it"></label><br><br>
 			<label>Password: <input name="passwd" type="password"></label><br>
 			<br>
-			<button type ="submit"><span> Accedi</span></button> <button type ="rest"><span>Cancella</span></button>
+			<button type ="submit"><span> Accedi</span></button> <button type ="reset"><span>Cancella</span></button>
 		</form>	
 	</div>
 	</body>
