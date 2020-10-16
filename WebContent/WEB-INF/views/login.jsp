@@ -3,9 +3,10 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
-	<head><title>Login here</title>
-	<meta charset="ISO-8859-1">
-	 <link href="./attivita.css" rel="stylesheet"/>
+	<head>
+		<title>Login here</title>
+		<meta charset="ISO-8859-1">
+	 	<link href="./attivita.css" rel="stylesheet"/>
 	</head>
 	<body>
 	<h1>ACCEDI</h1>
