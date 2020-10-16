@@ -10,15 +10,22 @@
 	</head>
 	<body>
 	<h1>ACCEDI</h1>
+	<%
+	String errore = (String)session.getAttribute("errore");
+	if (errore != null && errore.length() > 0) {
+	out.print("<b>"+errore+"</b><br/>");
+	session.removeAttribute("errore");
+}
+%>
 	<div class="main">
-		<form action= "redirect"  method="GET">
+		<form action= "h"  method="GET">
 			<h3>Log in: </h3><br>
 			<label>Email: <input  name="email" type="email" placeholder="user@domain.it"></label><br><br>
 			<label>Password: <input name="passwd" type="password"></label><br>
 			<br>
+			
 			<button type ="submit"><span> Accedi</span></button> <button type ="reset"><span>Cancella</span></button>
 		</form>	
 	</div>
 	</body>
-
 </html>
