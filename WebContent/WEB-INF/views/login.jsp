@@ -6,7 +6,7 @@
 	<head>
 		<title>Login here</title>
 		<meta charset="ISO-8859-1">
-	 	<link href="./attivita.css" rel="stylesheet"/>
+	 <link rel="stylesheet" href="<c:url value="/resources/static/attivita.css" />">
 	</head>
 	<body>
 	<h1>ACCEDI</h1>

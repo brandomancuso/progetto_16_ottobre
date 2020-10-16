@@ -19,5 +19,5 @@
 		<beans:property name="prefix" value="/WEB-INF/views/" />
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
-<resources mapping="/resources/**" location="/resources/static/" cache-period="31556926"/>
+<resources mapping="/resources/**" location="/resources/" cache-period="31556926"/>
 </beans:beans>
